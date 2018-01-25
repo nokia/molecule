@@ -2,7 +2,7 @@
 
 A concurrent programming library combining monadic and streaming I/O in Scala.
 
-By releasing Molecule as open source [Alcatel-Lucent](http://www.alcatel-lucent.com/)/[Bell Labs](http://www.bell-labs.com) is supporting research in easing the industry's transition to network function virtualization on cloud computing platforms.
+By releasing Molecule as open source [NOKIA Bell Labs](http://www.bell-labs.com) is supporting research in easing the industry's transition to network function virtualization on cloud computing platforms.
 
 There is a [mailing list](https://groups.google.com/group/molecule-labs) for discussions.
 
@@ -26,7 +26,7 @@ Both the [paper](#publication) explaining the rationale and the design principle
 
 ## Publication
 
-**_Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM_** by Sébastien Bocq and Koen Daenen. ACM SIGPLAN conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2012), Tucson, Arizona, USA, 2012. \[[pdf](https://github.com/molecule-labs/molecule/raw/docs/publications/OOPSLA_2012/molecule.pdf)\]
+**_Molecule: Using Monadic and Streaming I/O to Compose Process Networks on the JVM_** by Sébastien Bocq and [Koen Daenen](http://bell-labs.com/usr/koen.daenen). ACM SIGPLAN conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2012), Tucson, Arizona, USA, 2012. \[[pdf](https://github.com/molecule-labs/molecule/raw/docs/publications/OOPSLA_2012/molecule.pdf)\]
 
 ACM, 2012. This is the authors version of the work. It is posted here by permission of the ACM for
 your personal use. Not for redistribution. For referencing, please refer to the definitive version,
@@ -193,7 +193,7 @@ Molecule is available on the Sonatype OSS Maven repository (which is mirrored on
 	  0.5.3 (for molecule-core)
 	  0.5.4 (for molecule-parsers)
 	  0.5.2 (for other packages)
-	
+
 Alternatively you can download the Jar files directly from Sonatype:
 
 for scala 2.11
@@ -234,7 +234,7 @@ From command line. First make a build as described above and stay in the molecul
 	./target/2.9.3/molecule-net-examples.jar:\
 	./target/2.9.3/molecule-parsers.jar \
 	molecule.examples.io.HelloYou
-	
+
 **Note:** On Windows, use your full home directory iso '~' and use ';' iso ':' as file separator (and make it one long line, escaping CR with backslash will probably not work).
 
 
@@ -260,6 +260,6 @@ Alternatively, you checkout the sources and run them from your favorite IDE with
 
 ## License
 
-Copyright 2015 Alcatel-Lucent
+Copyright 2012-2018 NOKIA Bell Labs
 
 Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
